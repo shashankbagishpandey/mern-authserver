@@ -7,7 +7,7 @@ const { test ,registerUser,loginUser,getProfile,logoutUser} = require('../contro
 router.use(
     cors({
         credentials: 'true',
-        origin:'http://127.0.0.1:5173/'
+        origin:'https://main--wingmantraders.netlify.app/'
 
     })
 
