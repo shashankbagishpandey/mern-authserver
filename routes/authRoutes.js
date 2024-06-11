@@ -4,16 +4,16 @@ const cors = require('cors');
 const { test ,registerUser,loginUser,getProfile,logoutUser} = require('../controllers/authController');
 
 //middleware
-// router.use(
-//     cors({
-//         credentials: 'true'
+ router.use(
+     cors({
+         credentials: 'true'
 
-//     })
+     })
 
-// )
+ )
 
 
-router.use(cors({credentials: false}));
+//router.use(cors({credentials: false}));
 
 
 router.get('/', test);
