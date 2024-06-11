@@ -13,7 +13,7 @@ const { test ,registerUser,loginUser,getProfile,logoutUser} = require('../contro
 // )
 
 
-router.use(cors({credentials: 'false',origin: true }));
+router.use(cors({credentials: false,origin: true }));
 
 
 router.get('/', test);
